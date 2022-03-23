@@ -19,7 +19,7 @@ class App extends React.Component {
 
     return(
       <div class="container">
-        <h1 class="text-centered"> "Welcome to React</h1>
+        <h1 className="text-center">Welcome to React</h1>
         <div className="row">
           <div className="col-6">
             <textarea id='editor' value={markdown} onChange={this.handleChange}></textarea>
