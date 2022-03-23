@@ -39,3 +39,6 @@
 body {
   background-color: rgba(94, 122, 136, 0.418);
 }
+.preview {
+  background-color: white;
+}
