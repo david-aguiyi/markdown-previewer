@@ -19,12 +19,14 @@ class App extends React.Component {
 
     return(
         <div class="container">
-          <h1 className="text-center">Welcome to React</h1>
+          <h1 className="text-center" >Welcome to React</h1>
           <div className="row">
             <div className="col-6">
-              <textarea id='editor' value={markdown} onChange={this.handleChange}></textarea>
+              <textarea id='editor' className="form-control" value={markdown} onChange={this.handleChange}></textarea>
             </div>
-            <div className='col-6' id='previewer'>
+            <div className="col-6 preview" id="preview">
+              <h6>Enter you markdown here: </h6>
+              <p>this is where to enter markdown</p>
             </div>
           </div>
         </div>
