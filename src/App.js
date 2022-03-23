@@ -6,7 +6,7 @@ import './App.css';
 class App extends React.Component {
   render() {
     return(
-      <div>
+      <div class="container">
         <h1>Welcome to React</h1>
         <div className="row">
           <div className="col-6">
