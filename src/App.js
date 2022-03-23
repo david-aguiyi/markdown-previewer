@@ -5,20 +5,21 @@ import './App.css';
 
 class App extends React.Component {
   state = {
-    markdown: ''
-  }
+      markdown: ''
+    }
+
+  handleChange = (event) => {
+    this.setState({
+      markdown: event.target.value
+    })
+  }  
+
   render() {
     const { markdown } = this.state;
 
-    handleChange = (e) => {
-      this.setState({
-        markdown: e.target.value
-      })
-    }  
-
     return(
       <div class="container">
-        <h1>Welcome to React</h1>
+        <h1 class="text-centered"> "Welcome to React</h1>
         <div className="row">
           <div className="col-6">
             <textarea id='editor' value={markdown} onChange={this.handleChange}></textarea>
