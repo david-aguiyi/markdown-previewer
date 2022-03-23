@@ -12,6 +12,8 @@ class App extends React.Component {
           <div className="col-6">
             <textarea id='editor'></textarea>
           </div>
+          <div className='col-6' id='previewer'>
+          </div>
         </div>
       </div>
     )
