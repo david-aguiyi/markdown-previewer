@@ -10,12 +10,12 @@ class App extends React.Component {
 
   handleChange = (event) => {
     this.setState({
-      markdown: event.target.value
+      text: event.target.value
     })
   }  
 
   render() {  
-    const { markdown } = this.state;
+    const {text} = this.state;
 
     return(
         <div class="container">
@@ -23,10 +23,10 @@ class App extends React.Component {
           <div className="row">
             <h6>Enter your markdown</h6>
             <div className="col-6">
-              <textarea id='editor' className="form-control" value={markdown} onChange={this.handleChange}></textarea>
+              <textarea id='editor' className="form-control" value={text} onChange={this.handleChange}></textarea>
             </div>
-            <div className="col-6" id="preview">
-              <h6>Your preview</h6>
+            <div className="col-6 m-auto" id="preview">
+              <h6>See the result</h6>
               <div className="preview">
                   <p>See your preview</p>
               </div>
