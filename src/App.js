@@ -8,6 +8,11 @@ class App extends React.Component {
     return(
       <div>
         <h1>Welcome to React</h1>
+        <div className="row">
+          <div className="col-6">
+            <textarea id='editor'></textarea>
+          </div>
+        </div>
       </div>
     )
   }
