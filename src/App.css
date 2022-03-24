@@ -43,6 +43,7 @@ body {
   background-color: white;
   min-height: 400px;
   position: relative;
+  border-radius: 20px;
 }
 .preview img {
   max-width: 100%;
@@ -51,6 +52,7 @@ body {
 textarea {
   min-height: 400px;
   font-size: 0.875rem;
+  border-radius: 50px;
 }
 
 .text-center {
