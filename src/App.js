@@ -44,7 +44,7 @@ class App extends React.Component {
     return(
       <div className='App'>
         <div class="container-fluid">
-          <h1 className="text-center" >Welcome to React</h1>
+          <h1 className="text-center" >Welcome to my Markdown Previewer</h1>
           <div className="row">
             <div className="col-6">
             <h6>Enter your markdown</h6>
