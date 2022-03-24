@@ -5,7 +5,7 @@ import { marked } from "marked"
 const initialState = `
   Hi Welcome to my Markdown Previewer. Created by David Aguiyi
   
-  **Here you have a bolden text** or *italics*
+  **Here you have a bolden text** or _italics_ **_even both_**
   # Heading 1
   ## Heading 2
 
@@ -15,7 +15,7 @@ const initialState = `
 
   [Visit this website to check out my calculator app](https://david-aguiyi.github.io/simple-calculator-app/)
   
-  This is my inline \`<div></div>\`
+  This is my inline html code \`<div></div>\`
 
   >Block Quotes!
 
