@@ -3,12 +3,14 @@ import './App.css';
 import { marked } from "marked"
  
 const initialState = `
-  Hi Welcome to my Markdown Previewer. **Created by David Aguiyi**
+  Hi Welcome to my Markdown Previewer. Created by David Aguiyi
+  
+  **Here you have a bolden text** or *italics*
   # Heading 1
   ## Heading 2
 
-  - Here will
-  - Contain list
+  - Here you
+  - list
   - items
 
   [Visit this website to check out my calculator app](https://david-aguiyi.github.io/simple-calculator-app/)
