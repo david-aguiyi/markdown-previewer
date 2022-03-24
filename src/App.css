@@ -44,7 +44,6 @@ body {
   min-height: 400px;
   position: relative;
   top: 20px;
-  display: flex;
 }
 
 textarea {
