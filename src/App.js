@@ -22,7 +22,7 @@ const initialState = `
     let y = 2;
     let z = x + y
   \`\`\`
-  ![Keep coding](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fcoding&psig=AOvVaw0uRtZGkAs0HKQ2j8pkmipT&ust=1648201129053000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDN0uq53vYCFQAAAAAdAAAAABAN)
+  !![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
   `;
 
 class App extends React.Component {
@@ -53,7 +53,7 @@ class App extends React.Component {
               <h6 className='text-center'>See the result</h6>
               <div className="preview container"
                   dangerouslySetInnerHTML={{__html:markdown}} />    
-                <p>this is the previewer</p>
+                <p>This is the previewer</p>
             </div>
           </div>
         </div>
