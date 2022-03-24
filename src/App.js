@@ -40,7 +40,7 @@ class App extends React.Component {
 
   render() {  
     const {text} = this.state;
-    const markdown = marked(text)
+    const markdown = marked(text, {breaks: true})
     return(
       <div className='App'>
         <div class="container">
