@@ -42,8 +42,14 @@ body {
 .preview {
   background-color: white;
   min-height: 400px;
+  position: relative;
+  top: 20px;
+  display: flex;
 }
 
 textarea {
   min-height: 400px;
+  position: relative;
+  left: -80px;
+  top: 20px;
 }
