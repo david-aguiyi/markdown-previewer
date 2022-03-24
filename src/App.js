@@ -52,7 +52,7 @@ class App extends React.Component {
             </div>
 
             <div className="col-6 m-auto" >
-              <h6 className='text-center'>Here's your Preview</h6>
+              <h6>Here's your Preview</h6>
               <div className="preview">
                 <div dangerouslySetInnerHTML={{__html:markdown}} id="preview" />    
               </div>
