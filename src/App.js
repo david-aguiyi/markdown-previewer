@@ -30,9 +30,9 @@ class App extends React.Component {
 
             <div className="col-6 m-auto" id="preview">
               <h6 className='text-center'>See the result</h6>
-              <div className="preview">
-                  <p>See your preview</p>
-              </div>
+              <div className="preview rounded"
+                  dangerouslySetInnerHTML={{__html:markdown}} />    
+                <p>this is the previewer</p>
             </div>
           </div>
         </div>
