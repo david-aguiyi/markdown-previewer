@@ -52,3 +52,7 @@ textarea {
   min-height: 400px;
   font-size: 0.875rem;
 }
+
+.text-center {
+  font-family: "Playfair Display", serif;
+}
