@@ -51,10 +51,10 @@ class App extends React.Component {
               <textarea id='editor' className="form-control" value={text} onChange={this.handleChange}></textarea>
             </div>
 
-            <div className="col-6 m-auto" id="preview">
+            <div className="col-6 m-auto" >
               <h6 className='text-center'>See the result</h6>
-              <div className="preview container"
-                dangerouslySetInnerHTML={{__html:markdown}} />    
+              <div className="preview container"></div>
+                <div dangerouslySetInnerHTML={{__html:markdown}} id="preview" />    
               </div>
           </div>
         </div>
