@@ -41,27 +41,14 @@ body {
 }
 .preview {
   background-color: white;
-  width: 600px;
-  min-height: 200px;
-  margin-bottom: -5px;
-  resize: vertical;
-  outline: none;
-  padding-left: 5px;
-  padding-top: 5px;
-  font-size: 0.875rem;
-  justify-content: center;
+  min-height: 400px;
+  position: relative;
 }
 .preview img {
   max-width: 100%;
 }
 
 textarea {
-  width: 99%;
   min-height: 400px;
-  margin-bottom: -5px;
-  resize: vertical;
-  outline: none;
-  padding-left: 5px;
-  padding-top: 5px;
   font-size: 0.875rem;
 }
