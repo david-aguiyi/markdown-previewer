@@ -43,19 +43,20 @@ class App extends React.Component {
     const markdown = marked(text, {breaks: true})
     return(
       <div className='App'>
-        <div class="container">
+        <div class="container-fluid">
           <h1 className="text-center" >Welcome to React</h1>
           <div className="row">
-            <h6>Enter your markdown</h6>
             <div className="col-6">
+            <h6 className='align-items-left'>Enter your markdown</h6>
               <textarea id='editor' className="form-control" value={text} onChange={this.handleChange}></textarea>
             </div>
 
             <div className="col-6 m-auto" >
               <h6 className='text-center'>See the result</h6>
-              <div className="preview container"></div>
+              <div className="preview container">
                 <div dangerouslySetInnerHTML={{__html:markdown}} id="preview" />    
               </div>
+            </div>
           </div>
         </div>
       </div>
