@@ -15,18 +15,18 @@ const initialState = `
   
   This is my inline \`<div></div>\`
 
-  >his is a block of code
+  >Block Quotes!
 
   \`\`\`
     let x = 1;
     let y = 2;
-    let z = x + y
+       let z = x + y
   \`\`\`
-  !![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
+  ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
   `;
 
 class App extends React.Component {
-  state = {
+  state = { 
       text: initialState
     }
 
@@ -52,9 +52,8 @@ class App extends React.Component {
             <div className="col-6 m-auto" id="preview">
               <h6 className='text-center'>See the result</h6>
               <div className="preview container"
-                  dangerouslySetInnerHTML={{__html:markdown}} />    
-                <p>This is the previewer</p>
-            </div>
+                dangerouslySetInnerHTML={{__html:markdown}} />    
+              </div>
           </div>
         </div>
       </div>
