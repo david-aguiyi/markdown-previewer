@@ -61,6 +61,13 @@ textarea {
 .previewheader {
   width: 100%;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.5px;
+  margin-left: auto;
+}
+
+.editorheader {
+  width: 100%;
+  border-style: solid;
+  border-width: 0.5px;
   margin-left: auto;
 }
