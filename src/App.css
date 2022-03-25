@@ -63,11 +63,13 @@ textarea {
   border-style: solid;
   border-width: 0.5px;
   margin-left: auto;
+  border-radius: 1.5px;
+  text-align: left;
 }
 
 .editorheader {
   width: 100%;
   border-style: solid;
   border-width: 0.5px;
-  margin-left: auto;
+  text-align: left;
 }
