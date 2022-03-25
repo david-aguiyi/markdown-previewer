@@ -47,7 +47,7 @@ class App extends React.Component {
           <h1 className="text-center" >Welcome to my Markdown Previewer</h1>
           <div className="row">
             <div className="col-6">
-            <h6>Enter your markdown</h6>
+            <div className='editorheader'><h6>Enter your markdown</h6></div>
               <textarea id='editor' className="form-control" value={text} onChange={this.handleChange}></textarea>
             </div>
 
