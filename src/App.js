@@ -47,12 +47,12 @@ class App extends React.Component {
           <h1 className="text-center" >Welcome to my Markdown Previewer</h1>
           <div className="row">
             <div className="col-6">
-            <div className='editorheader'><h6>Enter your markdown</h6></div>
+            <div className='editorheader'><h4>Enter your markdown</h4></div>
               <textarea id='editor' className="form-control" value={text} onChange={this.handleChange}></textarea>
             </div>
 
             <div className="col-6" >
-              <div className='previewheader'><h6>Preview</h6></div>
+              <div className='previewheader'><h4>Preview</h4></div>
               <div className="preview">
                 <div dangerouslySetInnerHTML={{__html:markdown}} id="preview" />    
               </div>
