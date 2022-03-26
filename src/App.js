@@ -52,7 +52,7 @@ class App extends React.Component {
             </div>
 
             <div className="col-6" >
-              <div className='previewheader'><h5>Preview</h5></div>
+              <div className='previewheader container'><h5>Preview</h5></div>
               <div className="preview">
                 <div dangerouslySetInnerHTML={{__html:markdown}} id="preview" />    
               </div>
