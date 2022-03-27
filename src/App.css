@@ -61,6 +61,7 @@ textarea {
 
 .text-center {
   font-family: "Playfair Display", serif;
+  user-select: none;
 }
 
 .previewheader {
@@ -74,6 +75,7 @@ textarea {
   background-color: rgba(94, 122, 136, 0.418);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  user-select: none;
 }
 
 .editorheader {
@@ -85,4 +87,5 @@ textarea {
   background-color: rgba(94, 122, 136, 0.418);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  user-select: none;
 }
