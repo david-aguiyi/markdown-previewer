@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
-import { marked } from "marked"
- 
+import React from "react";
+import "./App.css";
+import { marked } from "marked";
+
 const initialState = `
   Hi Welcome to my Markdown Previewer. Created by David Aguiyi
   
@@ -28,39 +28,51 @@ const initialState = `
   `;
 
 class App extends React.Component {
-  state = { 
-      text: initialState
-    }
+  state = {
+    text: initialState,
+  };
 
   handleChange = (event) => {
     this.setState({
-      text: event.target.value 
-    })
-  }  
+      text: event.target.value,
+    });
+  };
 
-  render() {  
-    const {text} = this.state;
-    const markdown = marked(text, {breaks: true})
-    return(
-      <div className='App'>
+  render() {
+    const { text } = this.state;
+    const markdown = marked(text, { breaks: true });
+    return (
+      <div className="App">
         <div class="container-fluid">
-          <h1 className="text-center" >Welcome to my Markdown Previewer</h1>
+          <h1 className="text-center">Welcome to my Markdown Previewer</h1>
           <div>
             <div className="col-6 m-auto">
-              <div className='editorheader container'><h5>Enter your markdown</h5></div>
-                <textarea id='editor' className="form-control" value={text} onChange={this.handleChange}></textarea>
+              <div className="editorheader container">
+                <h5>Enter your markdown</h5>
               </div>
+              <textarea
+                id="editor"
+                className="form-control"
+                value={text}
+                onChange={this.handleChange}
+              ></textarea>
+            </div>
 
-              <div className="col-6" >
-                <div className='previewheader container'><h5>Preview</h5></div>
-                <div className="preview">
-                <div dangerouslySetInnerHTML={{__html:markdown}} id="preview" />    
+            <div className="m-auto">
+              <div className="previewheader container">
+                <h5>Preview</h5>
+              </div>
+              <div className="preview container">
+                <div
+                  dangerouslySetInnerHTML={{ __html: markdown }}
+                  id="preview"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
