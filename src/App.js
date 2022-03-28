@@ -22,7 +22,7 @@ const initialState = `
   \`\`\`
     let x = 1;
     let y = 2;
-       let z = x + y
+    let z = x + y
   \`\`\`
   ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
   `;
