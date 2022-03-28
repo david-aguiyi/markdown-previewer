@@ -1,7 +1,7 @@
 Build a Markdown Previewer
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/GrZVVO.
 
-![image](https://user-images.githubusercontent.com/87682085/160500196-536356eb-90f0-4196-ac38-04eaca0ca2db.png)
+![image](https://user-images.githubusercontent.com/87682085/160500332-50ec0f38-00f3-44fb-9d80-c91790e379bd.png)
 
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
