@@ -48,6 +48,7 @@ body {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 60%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  text-align: left;
 }
 .preview img {
   max-width: 100%;
