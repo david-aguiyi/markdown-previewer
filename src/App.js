@@ -13,7 +13,7 @@ const initialState = `
   - list
   - items
 
-  [Visit this website to check out my calculator app](https://david-aguiyi.github.io/simple-calculator-app/)
+  Click this [link](https://david-aguiyi.github.io/simple-calculator-app/) check out my calculator App
   
   This is my inline html code \`<div></div>\`
 
@@ -45,15 +45,15 @@ class App extends React.Component {
       <div className='App'>
         <div class="container-fluid">
           <h1 className="text-center" >Welcome to my Markdown Previewer</h1>
-          <div className="row">
-            <div className="col-6">
-            <div className='editorheader container'><h5>Enter your markdown</h5></div>
-              <textarea id='editor' className="form-control" value={text} onChange={this.handleChange}></textarea>
-            </div>
+          <div>
+            <div className="col-6 m-auto">
+              <div className='editorheader container'><h5>Enter your markdown</h5></div>
+                <textarea id='editor' className="form-control" value={text} onChange={this.handleChange}></textarea>
+              </div>
 
-            <div className="col-6" >
-              <div className='previewheader container'><h5>Preview</h5></div>
-              <div className="preview">
+              <div className="col-6" >
+                <div className='previewheader container'><h5>Preview</h5></div>
+                <div className="preview">
                 <div dangerouslySetInnerHTML={{__html:markdown}} id="preview" />    
               </div>
             </div>
