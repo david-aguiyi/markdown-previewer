@@ -39,6 +39,7 @@ body {
   border-bottom-right-radius: 5px;
   text-align: left;
   padding: 10px;
+  width: 800px;
 }
 .preview img {
   max-width: 60%;
@@ -56,7 +57,7 @@ textarea {
 }
 
 .previewheader {
-  width: 100%;
+  width: 800px;
   border-style: solid;
   border-width: 1px;
   margin-left: auto;
@@ -67,6 +68,7 @@ textarea {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   user-select: none;
+  margin-top: 40px;
 }
 
 .editorheader {
@@ -79,8 +81,4 @@ textarea {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   user-select: none;
-}
-
-.col-6 {
-  margin: 60px;
 }
