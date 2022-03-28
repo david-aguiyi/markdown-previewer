@@ -49,6 +49,7 @@ body {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   text-align: left;
+  padding: 10px;
 }
 .preview img {
   max-width: 60%;
